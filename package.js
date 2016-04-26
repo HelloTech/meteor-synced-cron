@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Allows you to define and run scheduled jobs across multiple servers.",
   version: "1.3.2",
-  name: "hellotech:meteor-synced-cron",
+  name: "hellotech:synced-cron",
   git: ""
 });
 
@@ -15,6 +15,6 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['percolate:synced-cron', 'tinytest', 'underscore', 'logging']);
+  api.use(['hellotech:synced-cron', 'tinytest', 'underscore', 'logging']);
   api.add_files('synced-cron-tests.js', ['server']);
 });
