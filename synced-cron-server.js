@@ -17,7 +17,7 @@ SyncedCron = {
     //TTL in seconds for history records in collection to expire
     //NOTE: Unset to remove expiry but ensure you remove the index from
     //mongo by hand
-    collectionTTL: 172800
+    // collectionTTL: 172800
   },
   config: function(opts) {
     this.options = _.extend({}, this.options, opts);
