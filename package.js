@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Allows you to define and run scheduled jobs across multiple servers.",
-  version: "1.3.2",
+  version: "1.3.3",
   name: "hellotech:synced-cron",
   git: ""
 });
